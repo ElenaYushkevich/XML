@@ -1,1 +1,15 @@
-
+Command: vim new.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<bugReport>
+  <id>1</id>
+  <Summary>LoginDialog</Summary>
+  <Preconditions>Win10</Preconditions>
+  <Steps to Reproduce>
+    <Step1>Launch Login Dialog</Step1>
+    <Step2>Valid Username field</Step2>
+    <Step3>Valid Password</Step3>
+    <Step4>Click login button</Step4>    
+  </Steps to Reproduce>
+  <Expected Result>User successfully logged into the application</Expected Result>
+  <Actual Result>Fail</Actual Result>
+</bugReport>
